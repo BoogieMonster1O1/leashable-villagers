@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "io.github.boogiemonster1o1.leashablevillagers.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "MerchantEntityMixin"
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1

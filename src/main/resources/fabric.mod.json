@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "leashablevillagers",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Leashable Villagers",
+  "description": "literally thats it",
   "authors": [
     "Me!"
   ],
@@ -18,12 +18,9 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "leashablevillagers.mixins.json"
   ],
 
   "depends": {
